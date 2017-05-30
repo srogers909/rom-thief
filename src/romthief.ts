@@ -143,11 +143,11 @@ const PAGES = new Array<string>("0", "A", "B", "C", "D", "E", "F", "G", "H", "I"
                                 color.colorItSync("Downloads begin", { fColor: "green" })
                             );
 
-                            let rejections = response.filter(el => { return el.isRejected(); });
+                            /*let rejections = response.filter(el => { return el.isRejected(); });
 
                             for (let i = 0; i <= (rejections.length - 1); i++) {
                                 console.log(rejections[i].reason());
-                            }
+                            }*/
 
                             for (let i = 0; i <= (response.length - 1); i++) {
                                 if (response[i].body) {

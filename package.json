@@ -1,12 +1,13 @@
 {
   "name": "romthief",
   "description": "Specific to www.planetemu.net. Screen scrapes the HTML, retrieves the game values and downloads each game by page.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "src/romthief.js",
   "author": "Steven Rogers (@srogers909 - github/plunker)",
   "dependencies": {
     "bluebird": "^3.5.0",
     "cheerio": "latest",
+    "extract-zip": "^1.6.5",
     "fs": "latest",
     "node-colorify": "^2.0.1",
     "path": "^0.12.7",
