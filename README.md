@@ -9,7 +9,7 @@
 
 * Compile the romthief typescript file.
    * `tsc src/romthief.ts`
-   * builds a javascript file *romthief.js* in the src directory (for now).
+   * builds a javascript file *(romthief.js)* in the src directory (for now).
 
 ## Execution
 
@@ -27,7 +27,12 @@
 ### Page Index
 * The array index for **0** through **26**.
    * Pages 0-9 = index 0.
-   * Page A = index 1. etc.
+   * Page A = index 1. 
+   * etc.
+
+### Example
+* `node src/romthief.js "nintendo-nes" 0`
+   * Downloads the first page of the NES page.
 
 ### Known Issues
 * Timeout issues with downloading large games.  Working on it.

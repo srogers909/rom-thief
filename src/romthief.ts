@@ -1,5 +1,5 @@
 /**
- * RomThief v1.0.1
+ * RomThief v1.1.0
  * 
  * Specific to www.planetemu.net.  <p/>
  * Screen scrapes the HTML, retrieves the game values and downloads each game by page.
