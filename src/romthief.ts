@@ -128,7 +128,7 @@ const PAGES = new Array<string>("0", "A", "B", "C", "D", "E", "F", "G", "H", "I"
                             resolveWithFullResponse: true,
                             followAllRedirects: true,
                             encoding: null,
-                            timeout: 120000,
+                            timeout: 320000,
                             form: {
                                 "id": gameValues[i]
                             }
@@ -153,7 +153,7 @@ const PAGES = new Array<string>("0", "A", "B", "C", "D", "E", "F", "G", "H", "I"
                                 if (response[i].body) {
 
                                     try {
-                                        const gamePath = "D:\\romthief-games\\" + _gameTitles[i] + ".zip";
+                                        const gamePath = `D:\\romthief-games\\${_gameTitles[i]}.zip`;
 
                                         /**
                                          * Writes each file to the gamePath in it's raw format.
