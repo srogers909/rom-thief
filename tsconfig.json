@@ -1,11 +1,13 @@
 {
-    "compileOnSave": true,
+    "compileOnSave": false,
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
         "sourceMap": true,
         "removeComments": true,
+        "outDir": "dist",
+        "resolveJsonModule": true,
         "baseUrl": "",
         "paths": {
             "*": [
@@ -16,9 +18,10 @@
         "moduleResolution": "node"
     },
     "exclude": [
-        "node_modules/*"
+        "node_modules/*",
+        "archive/*"
     ],
     "include": [
         "src/**/*"
-    ]
+, "archive/romthief.ts"    ]
 }

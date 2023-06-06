@@ -1,0 +1,10 @@
+{
+  "hostUrl": "https://www.planetemu.net",
+  "downloadUrl": "http://www.planetemu.net/php/roms/download.php",
+  "saveDirectory": "D:\\DownloadGames\\PlanetEmu\\",
+  "romList": "roms",
+  "romSinglePage": "rom",
+  "romPages": ["0", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", 
+  "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+  "defaultGameSystem": "nintendo-nintendo-entertainment-system"
+}
